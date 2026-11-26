@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+
+    int a = 10, b = 20;
+
+    cout << "Before Swap:" << endl;
+    cout << "a = " << a << endl;
+    cout << "b = " << b << endl;
+
+    
+    int temp = a;
+    a = b;
+    b = temp;
+
+    cout << "\nAfter Swap:" << endl;
+    cout << "a = " << a << endl;
+    cout << "b = " << b <<  end1;
+
+    return 0;
+}
